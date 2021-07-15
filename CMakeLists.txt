@@ -5,7 +5,7 @@ set(CMAKE_INSTALL_PREFIX ${CMAKE_SOURCE_DIR} CACHE PATH "Path to where the sampl
 
 project(NvAR_SDK CXX)
 
-set(CMAKE_CONFIGURATION_TYPES "Debug" CACHE STRING "" FORCE)
+set(CMAKE_CONFIGURATION_TYPES "Release")
 
 # Require C++11 and disable non-standard extensions
 set(CMAKE_CXX_STANDARD 14)
